@@ -1,0 +1,52 @@
+header {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+       
+}
+
+nav {
+    display: flex;
+    flex-shrink: 1;
+    justify-content: space-between;
+    padding: 10px;
+    height: 60px;
+}
+
+.center_links {
+    display: flex;
+    align-items: center;
+}
+
+.left_links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.right_links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sbar {
+    line-height: 25px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1 1 auto;
+}
+
+.video  {
+    margin: 130px 110px;
+}
+
+.sidebar {
+    margin-top: 130px;
+    margin-right: 150px;
+}
+
