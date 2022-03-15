@@ -1,45 +1,43 @@
 header {
-    background-color: white;
-    position: fixed;
-    width: 100%;
-       
+    background-color:white;
+    position:fixed;
+    width:100%;
+    
 }
 
 nav {
-    display: flex;
-    flex-shrink: 1;
-    justify-content: space-between;
-    padding: 10px;
-    height: 60px;
+    display:flex;
+    flex-shrink:1;
+    justify-content:space-between;
+    padding:10px;
+    height:60px;
 }
 
 .center_links {
-    display: flex;
-    align-items: center;
+    display:flex;
+    align-items:center;
 }
 
 .left_links {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+    display:flex;
+    align-items:center;
+    gap: 0px;
 }
 
 .right_links {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+    display:flex;
+    align-items:center;
+    gap:10px;
 }
 
 .sbar {
-    line-height: 25px;
+    line-height:25px;
 }
 
-
-
 .container {
-    padding: 130px 100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-shrink: 1;
+    padding:130px 100px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    flex-shrink:1;
 }
